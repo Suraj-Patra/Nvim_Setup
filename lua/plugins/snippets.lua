@@ -8,7 +8,7 @@ return {
     -- Optional but very useful
     ls.config.set_config({
       history = true,
-      updateevents = "TextChanged,TextChangedI",
+      updateevents = "InsertLeave",
       enable_autosnippets = true,
     })
 

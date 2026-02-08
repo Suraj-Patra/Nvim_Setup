@@ -13,14 +13,13 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
-  { import = "plugins" },
-})
-
-
-require("lazy").setup({
+require("lazy").setup(
   {
-    "nvim-treesitter/nvim-treesitter",
-    lazy = false,
+    { import = "plugins" },
   },
-})
+  { 
+    rocks = { enabled = false, },    
+  }
+)
+
+
