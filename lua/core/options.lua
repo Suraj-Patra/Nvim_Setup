@@ -17,6 +17,4 @@ vim.opt.timeoutlen = 400
 vim.opt.smartindent = true
 vim.opt.clipboard = "unnamedplus"
 vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
 
-vim.opt.lazyredraw = true
